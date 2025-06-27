@@ -1,0 +1,60 @@
+* {
+    font-family: "Source Sans Pro", serif;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+main {
+    min-height: 100vh;
+    margin-left: 0;
+    padding: 1.5vw;
+    background: -webkit-gradient(linear, left top, right bottom, from(#1386A2), to(#CAF6FF));
+    background: linear-gradient(to bottom right, #1386A2, #CAF6FF)
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    color: #123c69;
+}
+
+h1 {
+    text-align: center;
+    font-size:  5vw;
+    margin: 1vw;
+    padding: 1vw;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    font-size:  3vw;
+    margin: 1vw;
+    padding: 1vw;
+}
+
+h3 {
+    font-size:  2.5vw;
+
+}
+
+.cont {
+    display: flex;
+    flex-direction: row;
+}
+
+.cont_title {
+    width: 40%;
+    padding: 0.5vw;
+    border: 0.01rem dashed #123c69;
+}
+
+.cont_text {
+    width: 60%;
+    padding: 0.5vw;
+    border: 0.01rem dashed #123c69;
+}
